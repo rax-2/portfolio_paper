@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #edeee6;
+    /* padding: 10px; */
+    padding: 0px 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header  */
+
+.heading_container {
+    display: grid;
+    place-items: center;
+    padding: 8px;
+    /* background-color: rgba(255, 0, 0, 0.225); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head_text {
+    font-size: 14dvw;
+    font-weight: bolder;
+    color: rgb(13, 59, 159);
+}
+
+.sub_head_text {
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(13, 59, 159);
+}
+
+.info_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2px 10px 0px 10px;
+    /* background-color: #bbddc5; */
+}
+
+.date_text,
+.author_name {
+    color: black;
+    font-size: 50%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.line_header {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+/* main */
+main {
+    /* background-color: #dbd0d0; */
+    margin-top: 4px;
+}
+
+.title_container {
+    display: grid;
+    place-items: center;
+
+}
+
+.title_text,
+.content_container_c_title_text {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.containt_container_a,
+.containt_container_b {
+    width: 100%;
+    display: flex;
+    /* background-color: hsl(143, 16%, 77%); */
+
+}
+
+.content_box_a,
+.content_box_b {
+    display: flex;
+    flex-wrap: wrap;
+    width: 24%;
+    /* background-color: #f8caca; */
+}
+
+.content_text {
+    font-size: 8px;
+    margin-top: 4px;
+}
+
+.content_box_b {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.content_box_c {
+    width: 48%;
+
+}
+
+.dp_image {
+    width: 100%;
+    margin-top: 4px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.image_text_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4px;
+}
+
+.image_provider,
+.image_person_name {
+    font-size: 5px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.content_box_d {
+    margin-top: 4px;
+}
+
+.content_title_text_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.containt_title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.containt_container_b {
+    margin-top: 4px;
+}
+
+.content_container_c {
+    width: 75%;
+    border-right-style: solid;
+
+    border-right-width: 2px;
+    padding-right: 4px;
+}
+
+.title_parent_divi {
+    display: flex;
+    justify-content: center;
+}
+
+.content_container_c_title_text {
+    font-size: 20px;
+}
+
+.projects_parent_container {
+    display: flex;
+}
+
+.projects_container {
+    width: 33%;
+    /* background-color: #fff; */
+}
+
+.sep {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.project_title {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.git_text {
+    margin: 4px;
+}
+
+
+
+
+
+.content_container_d {
+    width: 25%;
+    padding-left: 4px;
+}
+
+.contact_form {
+    width: 100%;
+}
+
+.form_inp_field {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    padding: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-color: black;
+    border-style: solid;
+    background-color: #edeee6;
+    border-width: 1px;
+}
+
+::placeholder {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+:focus {
+    outline: none;
+}
+
+.submit_btn_container {
+    display: flex;
+    justify-content: center;
+}
+
+.form_submit {
+    font-size: 10px;
+    padding: 2px;
+    background-color: #ffffff00;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.social_icon_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icon_holder {
+    margin: 10px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.social_icons {
+    height: 50px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+/* footer */
+footer{
+    margin-top: 40px;
+}
+.text_holder{
+    /* text-align: right; */
+    display: flex;
+}
+.copy_link{
+    display: flex;
+    margin-left: auto;
+}
+.copy_text{
+    font-size: 8px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
